@@ -10,3 +10,54 @@ Zakodowany design możesz otworzyć wchodząc w następujący link:
 https://formularz-homework.surge.sh/
 
 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-blue-300">
+    <div class="container py-40 mx-auto w-64 md:w-80">
+      <form class="bg-slate-100 flex flex-col gap-y-2 p-10 rounded-lg">
+        <label class="text-sky-700 text-2xl text-center">Sign in</label>
+        <label class="text-sky-500 font-semibold" for="uname">User name</label>
+        <input
+          class="border border-sky-200 rounded-sm pt-2"
+          type="text"
+          name="uname"
+          placeholder="Enter your name"
+        />
+        <label class="text-sky-500 font-semibold" for="email">Email</label>
+        <input
+          class="border border-sky-200 rounded-sm pt-2"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <label class="text-sky-500 font-semibold" for="pwd">Password</label>
+        <input
+          class="border border-sky-200 rounded-sm pt-2"
+          type="password"
+          name="pwd"
+          placeholder="Create password"
+        />
+        <label class="text-sky-500 font-semibold" for="rpd-psw"
+          >Repeat password</label
+        >
+        <input
+          class="border border-sky-200 rounded-sm pt-2"
+          type="password"
+          name="rpd-psw"
+          placeholder="Repeat password"
+        />
+        <input
+          class="mt-5 p-2 border text-white bg-sky-400 border-sky-400 rounded-lg hover:bg-white hover:text-sky-400 hover:border-double hover:border-sky-400"
+          type="submit"
+          value="SUBMIT"
+        />
+      </form>
+    </div>
+  </body>
+</html>
