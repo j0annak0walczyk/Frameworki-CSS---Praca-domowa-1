@@ -18,38 +18,42 @@ https://formularz-homework.surge.sh/
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-blue-300">
+  <body class="bg-sky-300">
     <div class="container py-40 mx-auto w-64 md:w-80">
-      <form class="bg-slate-100 flex flex-col gap-y-2 p-10 rounded-lg">
+      <form class="bg-slate-100 flex flex-col gap-y-2 p-6 md:p-10 rounded-lg">
         <label class="text-sky-700 text-2xl text-center">Sign in</label>
         <label class="text-sky-500 font-semibold" for="uname">User name</label>
         <input
-          class="border border-sky-200 rounded-sm pt-2"
+          class="block border border-sky-200 rounded-sm py-1 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 placeholder:text-sm"
           type="text"
           name="uname"
+          id="uname"
           placeholder="Enter your name"
         />
         <label class="text-sky-500 font-semibold" for="email">Email</label>
         <input
-          class="border border-sky-200 rounded-sm pt-2"
+          class="block border border-sky-200 rounded-sm py-1 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 placeholder:text-sm"
           type="email"
           name="email"
+          id="email"
           placeholder="Enter your email"
         />
         <label class="text-sky-500 font-semibold" for="pwd">Password</label>
         <input
-          class="border border-sky-200 rounded-sm pt-2"
+          class="block border border-sky-200 rounded-sm py-1 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 placeholder:text-sm"
           type="password"
           name="pwd"
+          id="pwd"
           placeholder="Create password"
         />
         <label class="text-sky-500 font-semibold" for="rpd-psw"
           >Repeat password</label
         >
         <input
-          class="border border-sky-200 rounded-sm pt-2"
+          class="block border border-sky-200 rounded-sm py-1 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 placeholder:text-sm"
           type="password"
           name="rpd-psw"
+          id="rpd-psw"
           placeholder="Repeat password"
         />
         <input
